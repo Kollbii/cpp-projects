@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+*.pdf
+
+#Specified files / directories
+test.cpp
+physac.h
+raylib.h
+*.vscode
