@@ -21,6 +21,30 @@ Press RMB to draw with your LMB simultaneously.  (LMB -> RMB -> drawning white s
 
 Note: Gifs are speeded up 3 times.
 
+# Visualize sorting using SFML  
+Along with @tadeuszwachowski!
+
+Setting up array of numbers was the easiest part. But to manage this 'rainbow' flow we spent ~50 minutes and it was just as easy as 5 this lines... 🥴
+```cpp
+void setColors(float h, float *rgb) {
+    float frequency = 0.05;
+    int i = h/6.7;
+    rgb[0] = sin(frequency*i + 0) * 127 + 128;
+    rgb[1] = sin(frequency*i + 2) * 127 + 128;
+    rgb[2] = sin(frequency*i + 4) * 127 + 128;
+}
+```
+
+As said in title - program visualizes sorting. For now we implemented bubble sort and quicksort. Watch gifs!
+
+### Bubble sort visualization
+![Bubble sort](/Images/sorting1.gif)
+
+### Quicksort visualization
+![Quicksort](/Images/sorting2.gif)
+
+Unfortunetly for reasons unknown to me program crashes if it has >~180 numbers. I couldn't figure out what causes it. Maybe I'll manage later with help of @tadeuszwachowski. 
+
 # Fractals in raylib
 
 Simple program to draw fractals. In visualization there is 8 'trees'. Each is rotated by an angle of pi/4.  
