@@ -1,5 +1,7 @@
-# cpp-projects
-Stuff i do to learn. SFML, raylib, basic physics programs and some scripts from learning sites like cs-academy.
+# Info about repository  
+Stuff i do to learn. SFML, raylib, basic physics programs and some scripts from learning sites like cs-academy.  
+  
+Here is just a preview. More nice codes / simulations with descriptions can be found in */Programs*
 
 # My take on Conway's Game of Life in raylib
 The rules are on Wiki: [Wikipedia](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life)
@@ -24,6 +26,10 @@ Note: Gifs are speeded up 3 times.
 Simple program to draw fractals. In visualization there is 8 'trees'. Each is rotated by an angle of pi/4.  
 Max range of forking angle: <π;π/100>
 
+### Gif to visualize  
+![fractal gif](/Images/fractals.gif)
+
+## Galery: 
 ### Fractals at angle of π (a lot of lines at top of each other...)
 ![fractal 1](/Images/frac1.png)
 
