@@ -43,7 +43,7 @@ As said in title - program visualizes sorting. For now we implemented bubble sor
 ### Quicksort visualization
 ![Quicksort](/Images/sorting2.gif)
 
-Unfortunetly for reasons unknown to me program crashes if it has >~180 numbers. I couldn't figure out what causes it. Maybe I'll manage later with help of @tadeuszwachowski. 
+Unfortunately for reasons unknown to me program crashes if it has >~180 numbers. I couldn't figure out what causes it. Maybe I'll manage later with help of @tadeuszwachowski. 
 
 # Fractals in raylib
 
