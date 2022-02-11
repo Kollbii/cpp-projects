@@ -63,3 +63,12 @@ Max range of forking angle: <π;π/100>
 ### Fractals at angle of ~ π/21
 ![fractal 3](/Images/frac3.png)
 
+### Barnsley fern at different resolution
+![fractal 4](/Images/fern0.png)
+![fractal 5](/Images/fern2.png)
+
+### Mandelbrot 
+![fractal 6](/Images/mandelbrot.png)
+
+### Sierpinski triangle 
+![fractal 7](/Images/sierp2048.png)
